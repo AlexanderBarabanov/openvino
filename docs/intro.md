@@ -11,7 +11,7 @@ learning models. It provides boosted deep learning performance for vision,
 audio, and language models from popular frameworks like TensorFlow,
 PyTorch, and more.
 
-## Where to start
+## Where to start?
 
 - **[About OpenVINO](./about-openvino/index.md)** — Key features, ecosystem,
   performance benchmarks, and release notes.
