@@ -9,6 +9,10 @@ Welcome to the OpenVINO™ Developer Documentation. This documentation helps dee
 
 The OpenVINO™ provides a functionality to load models from different frameworks and run them on different accelerators.
 
+
+
+
+
 ```mermaid
 flowchart LR
     subgraph models [Models]
