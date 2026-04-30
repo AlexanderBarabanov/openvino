@@ -17,8 +17,6 @@ cmake --install <BUILDDIR> --prefix <INSTALLDIR>
 
    To build C++ sample applications, run the following commands:
 
-
-
    Linux and macOS:
    ```sh
    cd <INSTALLDIR>/samples/cpp
