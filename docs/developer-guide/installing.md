@@ -17,6 +17,8 @@ cmake --install <BUILDDIR> --prefix <INSTALLDIR>
 
    To build C++ sample applications, run the following commands:
 
+
+
    Linux and macOS:
    ```sh
    cd <INSTALLDIR>/samples/cpp
@@ -137,4 +139,3 @@ target_link_libraries(ov_c_app PRIVATE openvino::runtime::c)
  * [OpenVINO README](../../README.md)
  * [OpenVINO Developer Documentation](index.md)
  * [OpenVINO How to Build](build.md)
-
