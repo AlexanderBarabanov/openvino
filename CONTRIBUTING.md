@@ -11,6 +11,7 @@ product better.
 2. [Technical guide](#Technical-guide)
 
 
+
 ## Forms of contribution
 
 See also: [AI Usage Policy](./AI_USAGE_POLICY.md).
