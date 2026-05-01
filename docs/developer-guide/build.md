@@ -6,7 +6,7 @@ format: md
 # How to build OpenVINO
 
 ```mermaid
-gantt 
+gantt
     %% Use a hack for centry as a persantage
     dateFormat YYYY
     axisFormat %y
@@ -16,6 +16,7 @@ gantt
     Build openvino :crit, build, after env, 1716w
     Run tests :active, run, after build, 1716w
 ```
+
 
 The articles below provide the basic informations about the process of building OpenVINO.
 
