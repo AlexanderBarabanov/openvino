@@ -16,6 +16,8 @@ The software was validated on:
 
 ## Software requirements
 
+
+
 - [brew](https://brew.sh) package manager to install additional dependencies. Use [install brew](https://brew.sh) guide to achieve this.
 
 - Installation step for python and python libraries varies depending on the host architecture:
