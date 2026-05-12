@@ -4,12 +4,46 @@ sidebar_label: Introduction
 slug: /
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # OpenVINO Toolkit
 
 OpenVINO is an open-source toolkit for optimizing and deploying deep
 learning models. It provides boosted deep learning performance for vision,
 audio, and language models from popular frameworks like TensorFlow,
 PyTorch, and more.
+
+## Installing OpenVINO Runtime
+
+<Tabs>
+  <TabItem value="windows" label="Windows" default>
+
+```bash
+python -m pip install openvino
+```
+
+  </TabItem>
+  <TabItem value="linux" label="Linux and macOS">
+
+```bash
+python -m pip install openvino
+```
+
+  </TabItem>
+</Tabs>
+
+:::note
+
+Note that the PyPI distribution:
+
+- offers the Python API only
+- is dedicated to users of all major OSes: Windows, Linux, and macOS (all x86_64 / arm64 architectures)
+- macOS offers support only for CPU inference
+
+Before installing OpenVINO, see the System Requirements page.
+
+:::
 
 ## Where to start
 
