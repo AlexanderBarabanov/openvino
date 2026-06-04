@@ -144,8 +144,3 @@ tests:
     args:
       cpu: "-sv -k 'not gpu and not cuda and not npu_'"
       gpu: "-sv -k 'not cuda and not npu_'"
-
-  - name: docs_python_snippets
-    kind: command
-    profiles: [cpu]
-    command: "PYTHONPATH=docs/articles_en/assets:${PYTHONPATH} python3 -m coverage run -a docs/articles_en/assets/snippets/main.py"

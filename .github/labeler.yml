@@ -58,13 +58,7 @@
 
 'category: docs':
 - '**/*.md'
-- any: ['docs/**/*',
-        '!docs/snippets/**/*',
-        '!docs/articles_en/assets/snippets/**/*']
-
-'category: docs_snippets':
-- 'docs/snippets/**/*'
-- 'docs/articles_en/assets/snippets/**/*'
+- 'docs/**/*'
 
 'category: extensions':
 - 'src/core/include/openvino/core/extension.hpp'
