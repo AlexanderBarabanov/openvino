@@ -10,6 +10,7 @@ cmake-build*
 
 # and sphinx documentation folders
 !docs/sphinx_setup/_*
+!docs/_landing/
 
 # developer tools
 *.idea
