@@ -1,9 +1,9 @@
-import { DottedCardDetails } from "../components/DottedCardDetails/DottedCardDetails";
-import { Section } from "../components/Section/Section";
-import { useAssetUrl } from "../hooks/use-asset-url";
-import { useCurrentSpoke } from "../hooks/use-current-spoke";
-import { useSpokeHref } from "../hooks/use-spoke-href";
-import { useSpokes } from "../hooks/use-spokes";
+import { DottedCardDetails } from "../_components/DottedCardDetails/DottedCardDetails";
+import { Section } from "../_components/Section/Section";
+import { useAssetUrl } from "../_hooks/use-asset-url";
+import { useCurrentSpoke } from "../_hooks/use-current-spoke";
+import { useSpokeHref } from "../_hooks/use-spoke-href";
+import { useSpokes } from "../_hooks/use-spokes";
 import styles from "./Ecosystem.module.css";
 
 export const Ecosystem = () => {

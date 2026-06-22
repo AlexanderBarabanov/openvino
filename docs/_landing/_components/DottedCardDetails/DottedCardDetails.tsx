@@ -66,3 +66,5 @@ export const DottedCardDetails = ({
     </div>
   );
 };
+
+export default DottedCardDetails;

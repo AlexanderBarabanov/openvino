@@ -26,3 +26,5 @@ export const useCurrentSpoke = () => {
   if (!spokeSegment) return spokes.find(({ id }) => id === "openvino");
   return spokes.find(({ routeBasePath }) => routeBasePath === spokeSegment);
 };
+
+export default useCurrentSpoke;

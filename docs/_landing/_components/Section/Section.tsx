@@ -44,3 +44,5 @@ export const Section = SectionRoot as SectionComponent;
 Section.Icon = SectionIcon;
 Section.Title = SectionTitle;
 Section.Description = SectionDescription;
+
+export default Section;

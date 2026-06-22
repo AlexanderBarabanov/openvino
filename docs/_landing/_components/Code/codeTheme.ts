@@ -40,3 +40,5 @@ export const openvinoTheme: ThemeInput = {
     },
   ],
 };
+
+export default openvinoTheme;

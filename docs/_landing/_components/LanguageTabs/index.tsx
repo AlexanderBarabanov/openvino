@@ -1,12 +1,18 @@
-import TabItem, { Props as TabItemProps } from '@theme/TabItem';
-import Tabs from '@theme/Tabs';
-import { Children, ReactElement } from 'react';
+import TabItem, { Props as TabItemProps } from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+import { Children, ReactElement } from "react";
 
 type LanguageTabsProps = {
-  children: ReactElement<LanguageTabItemProps, typeof TabItemPython | typeof TabItemCpp>[];
+  children: ReactElement<
+    LanguageTabItemProps,
+    typeof TabItemPython | typeof TabItemCpp
+  >[];
 };
 
-export function LanguageTabs({ children, ...props }: LanguageTabsProps) {
+export default function LanguageTabs({
+  children,
+  ...props
+}: LanguageTabsProps) {
   const tabsChildren = Children.map(children, (child) => {
     if (child.type === TabItemPython) {
       return TabItemPython(child.props as TabItemProps);
@@ -15,7 +21,9 @@ export function LanguageTabs({ children, ...props }: LanguageTabsProps) {
     } else if (child.type === TabItemJS) {
       return TabItemJS(child.props as TabItemProps);
     } else {
-      throw new Error('LanguageTabs children must be TabItemPython, TabItemCpp or TabItemJS components');
+      throw new Error(
+        "LanguageTabs children must be TabItemPython, TabItemCpp or TabItemJS components",
+      );
     }
   });
 
@@ -26,7 +34,7 @@ export function LanguageTabs({ children, ...props }: LanguageTabsProps) {
   );
 }
 
-type LanguageTabItemProps = Omit<TabItemProps, 'value'>;
+type LanguageTabItemProps = Omit<TabItemProps, "value">;
 
 export function TabItemPython({ children, ...props }: LanguageTabItemProps) {
   return (

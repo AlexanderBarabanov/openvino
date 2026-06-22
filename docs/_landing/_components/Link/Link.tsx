@@ -12,3 +12,5 @@ export const Link = ({ href, label }: LinkProps) => {
     </a>
   );
 };
+
+export default Link;

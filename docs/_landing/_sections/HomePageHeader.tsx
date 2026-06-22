@@ -1,7 +1,7 @@
 import { Section } from "@site/src/components/Section/Section";
-import { useAssetUrl } from "../hooks/use-asset-url";
+import { useAssetUrl } from "../_hooks/use-asset-url";
 import styles from "./HomePageHeader.module.css";
-import { CardDetails } from "../components/CardDetails/CardDetails";
+import { CardDetails } from "../_components/CardDetails/CardDetails";
 
 export const HomePageHeader = () => {
   const assetUrl = useAssetUrl();

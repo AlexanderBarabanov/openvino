@@ -48,3 +48,5 @@ export const Code = ({
     />
   );
 };
+
+export default Code;

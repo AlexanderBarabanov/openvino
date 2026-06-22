@@ -1,9 +1,9 @@
-import { DottedCardDetails } from "../components/DottedCardDetails/DottedCardDetails";
-import { Link } from "../components/Link/Link";
-import { Section } from "../components/Section/Section";
-import { useAssetUrl } from "../hooks/use-asset-url";
-import { useCurrentSpoke } from "../hooks/use-current-spoke";
-import { useSpokeHref } from "../hooks/use-spoke-href";
+import { DottedCardDetails } from "../_components/DottedCardDetails/DottedCardDetails";
+import { Link } from "../_components/Link/Link";
+import { Section } from "../_components/Section/Section";
+import { useAssetUrl } from "../_hooks/use-asset-url";
+import { useCurrentSpoke } from "../_hooks/use-current-spoke";
+import { useSpokeHref } from "../_hooks/use-spoke-href";
 import styles from "./InstallOpenvino.module.css";
 
 export const InstallOpenvino = () => {

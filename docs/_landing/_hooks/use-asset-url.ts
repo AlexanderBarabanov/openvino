@@ -7,3 +7,5 @@ export const useAssetUrl = () => {
   return (assetPath: string) =>
     `${siteOrigin}${siteConfig.baseUrl}${assetPath.replace(/^\/+/, "")}`;
 };
+
+export default useAssetUrl;

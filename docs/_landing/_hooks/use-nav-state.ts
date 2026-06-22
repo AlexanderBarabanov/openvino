@@ -45,3 +45,5 @@ export const useNavState = (): NavState => {
 
   return { productActive, docsActive };
 };
+
+export default useNavState;

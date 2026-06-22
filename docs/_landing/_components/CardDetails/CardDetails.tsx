@@ -23,3 +23,5 @@ export const CardDetails = ({
     </div>
   );
 };
+
+export default CardDetails;
