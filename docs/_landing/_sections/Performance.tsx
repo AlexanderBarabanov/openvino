@@ -39,7 +39,7 @@ export const Performance = () => {
         </div>
         <DottedCardDetails
           title="Optimize for latency"
-          learnMoreLink={`${href}docs`}
+          learnMoreLink={`${href}docs/`}
           code={[
             {
               lang: "python",
@@ -57,7 +57,7 @@ export const Performance = () => {
               Optimize for <br /> throughput
             </>
           }
-          learnMoreLink={`${href}docs`}
+          learnMoreLink={`${href}docs/`}
           code={[
             {
               lang: "python",

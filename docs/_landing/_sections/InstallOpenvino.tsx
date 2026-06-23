@@ -50,7 +50,7 @@ export const InstallOpenvino = () => {
         <div className={styles.row1}>
           <DottedCardDetails
             title="Bring your model to OpenVINO"
-            learnMoreLink={`${href}docs`}
+            learnMoreLink={`${href}docs/`}
             code={[
               {
                 lang: "python",
@@ -85,7 +85,7 @@ export const InstallOpenvino = () => {
 
           <DottedCardDetails
             title="Optimize your model"
-            learnMoreLink={`${href}docs`}
+            learnMoreLink={`${href}docs/`}
             code={[
               {
                 lang: "python",
@@ -104,7 +104,7 @@ export const InstallOpenvino = () => {
         <div className={styles.row5}>
           <DottedCardDetails
             title="Run and infer"
-            learnMoreLink={`${href}docs`}
+            learnMoreLink={`${href}docs/`}
             code={[
               {
                 lang: "cpp",
