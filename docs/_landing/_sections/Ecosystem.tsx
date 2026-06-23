@@ -79,7 +79,7 @@ export const Ecosystem = () => {
             </>
           }
           description="A suite of post-training and training-time algorithms for optimizing inference"
-          learnMoreLink={`${href}docs`}
+          learnMoreLink={`${href}docs/`}
           code={[
             {
               lang: "python",
@@ -106,7 +106,7 @@ export const Ecosystem = () => {
         <DottedCardDetails
           title="OpenVINO Model Server"
           description="A scalable inference server for models optimized with OpenVINO"
-          learnMoreLink={`${href}docs`}
+          learnMoreLink={`${href}docs/`}
           code={[
             {
               lang: "dockerfile",
