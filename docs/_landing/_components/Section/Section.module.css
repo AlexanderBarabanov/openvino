@@ -1,18 +1,14 @@
 .container {
   color: var(--genai-color-white);
-  background: linear-gradient(
-    102deg,
-    #0e1566 0%,
-    #1a237f 30%,
-    #222d96 60%,
-    #2c2cb6 100%
-  );
+  position: relative;
+  background: linear-gradient(90deg, #0e1566 0%, #2c2cb6 100%);
+}
 
-  & > div {
-    padding: 64px 32px 32px;
-    max-width: var(--max-container-width);
-    margin: 0 auto;
-  }
+.content {
+  margin: 0 auto;
+  padding: 64px 32px 32px;
+  position: relative;
+  max-width: var(--max-container-width);
 }
 
 .icon {
@@ -36,4 +32,17 @@
   letter-spacing: 0.25px;
   text-align: center;
   margin-top: var(--margin-size);
+}
+
+.lightBackground {
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  background: radial-gradient(
+    58.09% 39.47% at 50% 105.5%,
+    #2c2cb6 49.95%,
+    rgba(44, 44, 182, 0) 100%
+  );
 }

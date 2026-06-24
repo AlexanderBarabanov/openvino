@@ -9,7 +9,7 @@
   flex-direction: column;
   color: var(--genai-color-white);
   position: relative;
-  background: #06145f;
+  background: #03123361;
 }
 
 .container::before {
@@ -19,11 +19,7 @@
   border-radius: inherit;
   padding: 1px;
 
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.45) 0%,
-    transparent 100%
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, transparent 100%);
 
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,

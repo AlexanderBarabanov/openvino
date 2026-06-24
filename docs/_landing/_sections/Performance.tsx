@@ -9,18 +9,12 @@ export const Performance = () => {
   const spokes = useSpokes();
   const assetUrl = useAssetUrl();
 
-  const href = useSpokeHref(
-    spokes.find(({ label }) => label === "OpenVINO")?.id ?? "",
-  );
+  const href = useSpokeHref(spokes.find(({ label }) => label === "OpenVINO")?.id ?? "");
 
   return (
     <Section>
       <Section.Icon>
-        <img
-          className={styles.icon}
-          src={assetUrl("img/performance.png")}
-          alt="performance"
-        />
+        <img className={styles.icon} src={assetUrl("img/performance.png")} alt="performance" />
       </Section.Icon>
 
       <Section.Title>Performance that matters</Section.Title>
@@ -32,10 +26,7 @@ export const Performance = () => {
 
       <div className={styles.grid}>
         <div>
-          <img
-            className={styles.blendModeLighten}
-            src={assetUrl("img/openvino-runtime.png")}
-          />
+          <img className={styles.blendModeLighten} src={assetUrl("img/openvino-runtime.png")} />
         </div>
         <DottedCardDetails
           title="Optimize for latency"
@@ -69,10 +60,7 @@ export const Performance = () => {
           ]}
         />
         <div>
-          <img
-            className={styles.blendModeLighten}
-            src={assetUrl("img/throughput-runtime.png")}
-          />
+          <img className={styles.blendModeLighten} src={assetUrl("img/throughput-runtime.png")} />
         </div>
       </div>
     </Section>

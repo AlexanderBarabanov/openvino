@@ -12,9 +12,7 @@ export const Ecosystem = () => {
   const openVinoSpoke = useCurrentSpoke();
 
   const href = useSpokeHref(openVinoSpoke?.id ?? "");
-  const genAIHubHref = useSpokeHref(
-    spokes.find(({ label }) => label === "GenAI")?.id ?? "",
-  );
+  const genAIHubHref = useSpokeHref(spokes.find(({ label }) => label === "GenAI")?.id ?? "");
   const physicalAIHubHref = useSpokeHref(
     spokes.find(({ label }) => label === "Physical AI")?.id ?? "",
   );
@@ -22,11 +20,7 @@ export const Ecosystem = () => {
   return (
     <Section>
       <Section.Icon>
-        <img
-          className={styles.icon}
-          src={assetUrl("img/ecosystem.png")}
-          alt="Ecosystem"
-        />
+        <img className={styles.icon} src={assetUrl("img/ecosystem.png")} alt="Ecosystem" />
       </Section.Icon>
 
       <Section.Title>Ecosystem</Section.Title>
@@ -72,10 +66,7 @@ export const Ecosystem = () => {
         <DottedCardDetails
           title={
             <>
-              NNCF{" "}
-              <span className={styles.titleDetails}>
-                Neural Network Compression Framework
-              </span>
+              NNCF <span className={styles.titleDetails}>Neural Network Compression Framework</span>
             </>
           }
           description="A suite of post-training and training-time algorithms for optimizing inference"
