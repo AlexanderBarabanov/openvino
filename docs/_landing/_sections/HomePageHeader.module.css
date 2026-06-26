@@ -38,7 +38,7 @@
 .description {
   margin: auto;
   margin-top: 16px;
-  max-width: 670px;
+  max-width: 1000px;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -59,12 +59,14 @@
 }
 
 .videoContainer {
+  padding: 36px;
   overflow: hidden;
   position: relative;
-  border-radius: 7px;
   margin-top: calc(var(--margin-size) * 3);
+  background: #03123361;
+  border-radius: 7px;
 
-  video {
+  img {
     width: 100%;
   }
 

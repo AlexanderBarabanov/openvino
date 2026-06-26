@@ -1,0 +1,46 @@
+.icon {
+  width: 80;
+  height: 72;
+  margin: auto;
+  display: block;
+  mix-blend-mode: lighten;
+}
+
+.container {
+  gap: 48px;
+  display: flex;
+  margin-top: 48px;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+
+.content {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+
+.items {
+  gap: 16px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.item {
+  width: 164px;
+  height: 96px;
+  background: #fff;
+  border: 8px solid #d1d2e3;
+  border-radius: 7px;
+  box-shadow: 0px 2px 4px 0px #00000021;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
