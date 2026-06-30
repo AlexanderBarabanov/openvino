@@ -1,14 +1,13 @@
 import { DottedCardDetails } from "../_components/DottedCardDetails/DottedCardDetails";
 import { Section } from "../_components/Section/Section";
-import { useAssetUrl } from "../_hooks/use-asset-url";
 import { useCurrentSpoke } from "../_hooks/use-current-spoke";
 import { useSpokeHref } from "../_hooks/use-spoke-href";
 import { useSpokes } from "../_hooks/use-spokes";
-import styles from "./Ecosystem.module.css";
+import frameworksIcon from "../img/icons/frameworks.png";
+import styles from "./Frameworks.module.css";
 
-export const Ecosystem = () => {
+export const Frameworks = () => {
   const spokes = useSpokes();
-  const assetUrl = useAssetUrl();
   const openVinoSpoke = useCurrentSpoke();
 
   const href = useSpokeHref(openVinoSpoke?.id ?? "");
@@ -20,10 +19,10 @@ export const Ecosystem = () => {
   return (
     <Section>
       <Section.Icon>
-        <img className={styles.icon} src={assetUrl("img/ecosystem.png")} alt="Ecosystem" />
+        <img className={styles.icon} src={frameworksIcon} alt="Frameworks" />
       </Section.Icon>
 
-      <Section.Title>Ecosystem</Section.Title>
+      <Section.Title>Frameworks</Section.Title>
 
       <Section.Description>
         <>

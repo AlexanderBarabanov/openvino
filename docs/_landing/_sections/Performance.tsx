@@ -35,9 +35,10 @@ export const Performance = () => {
             {
               lang: "python",
               code: `compiled_model_latency = core.compile_model(
-              model,
-              "CPU",
-              config={"PERFORMANCE_HINT": "LATENCY"})`,
+                model,
+                "CPU",
+                config={"PERFORMANCE_HINT": "LATENCY"}
+              )`,
             },
           ]}
         />
@@ -55,7 +56,8 @@ export const Performance = () => {
               code: `compiled_model_throughput = core.compile_model(
               model,
               "CPU",
-              config={"PERFORMANCE_HINT": "THROUGHPUT"})`,
+              config={"PERFORMANCE_HINT": "THROUGHPUT"}
+              )`,
             },
           ]}
         />

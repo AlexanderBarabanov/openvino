@@ -54,7 +54,8 @@ export const InstallOpenvino = () => {
                 import torch
                 import torchvision.models as models
 
-                model = torchvision.models.resnet50(weights='DEFAULT')model.eval()
+                model = torchvision.models.resnet50(weights='DEFAULT')
+                model.eval()
                 ov_model = ov.convert_model(model)`,
               },
             ]}
@@ -107,7 +108,8 @@ export const InstallOpenvino = () => {
                 code: `core = ov.Core()
                   compiled_model = core.compile_model(quantized_model, "CPU")
                   input_data = np.random.randn(1, 3, 224, 224).astype(np.float32)
-                  output = compiled_model(input_data)predictions = output[0]`,
+                  output = compiled_model(input_data)
+                  predictions = output[0]`,
               },
               {
                 lang: "javascript",

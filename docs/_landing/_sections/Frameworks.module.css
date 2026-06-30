@@ -1,7 +1,9 @@
 .icon {
   margin: auto;
+  width: 80;
+  height: 72;
   display: block;
-  max-width: var(--max-icon-size);
+  mix-blend-mode: Lighten;
 }
 
 .title {
