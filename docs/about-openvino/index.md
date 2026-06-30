@@ -45,3 +45,24 @@ OpenVINO has been employed in various case studies across a wide range of indust
 applications, including healthcare, retail, safety and security, transportation, and more.
 Read about how OpenVINO enhances efficiency, accuracy, and safety in different sectors on the
 [success stories page](https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/success-stories.html).
+
+## Demo
+
+### Converting a PyTorch Model
+
+<Tabs groupId="Demo">
+  <TabItem value="Python" label="Python" default>
+
+      ```python
+      import torchvision
+      import torch
+      import openvino as ov
+
+      model = torchvision.models.resnet50(weights='DEFAULT')
+      ov_model = ov.convert_model(model)
+
+      ```
+  </TabItem>
+  <TabItem value="C++" label="C++" default>
+  </TabItem>
+</Tabs>
