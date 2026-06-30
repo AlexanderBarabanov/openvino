@@ -6,6 +6,8 @@ import llaMaIcon from "../../img/icons/llaMa.png";
 import ollamaIcon from "../../img/icons/ollama.png";
 import onnxRuntimeIcon from "../../img/icons/onnxRuntime.png";
 import pyTorchIcon from "../../img/icons/pyTorch.png";
+import modelScope from "../../img/icons/modelScope.png";
+import windowsMl from "../../img/icons/windowsMl.png";
 import styles from "./Ecosystem.module.css";
 
 import llmIcon from "../../img/icons/llm.png";
@@ -34,7 +36,16 @@ export const Ecosystem = () => {
       <div className={styles.container}>
         <EcosystemCategory
           title="Foundational integrations for flexibility and choice"
-          items={[onnxRuntimeIcon, huggingFaceIcon, llaMaIcon, liteRtIcon, ollamaIcon, pyTorchIcon]}
+          items={[
+            onnxRuntimeIcon,
+            huggingFaceIcon,
+            llaMaIcon,
+            liteRtIcon,
+            ollamaIcon,
+            pyTorchIcon,
+            modelScope,
+            windowsMl,
+          ]}
         />
         <EcosystemCategory
           title="Datacenter integrations for easy serving"

@@ -18,6 +18,7 @@
   gap: 24px;
   display: flex;
   flex-direction: column;
+  container-type: inline-size;
 
   p {
     font-size: 24px;
@@ -28,19 +29,27 @@
 
 .items {
   gap: 16px;
+  width: 100%;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+@container (width > 1144px) {
+  .items {
+    flex-wrap: nowrap;
+  }
 }
 
 .item {
   width: 164px;
   height: 96px;
-  background: #fff;
   border: 8px solid #d1d2e3;
-  border-radius: 7px;
-  box-shadow: 0px 2px 4px 0px #00000021;
   display: flex;
-  justify-content: center;
+  overflow: hidden;
+  background: #fff;
   align-items: center;
+  box-shadow: 0px 2px 4px 0px #00000021;
+  border-radius: 7px;
+  justify-content: center;
 }
