@@ -88,6 +88,34 @@ not part of OpenVINO installation.
   </TabItem>
 </Tabs>
 
+### GPU
+
+<Tabs>
+  <TabItem value="hardware" label="Supported Hardware" default>
+
+  - Intel® Arc™ GPU Series
+  - Intel® HD Graphics
+  - Intel® UHD Graphics
+  - Intel® Iris® Pro Graphics
+  - Intel® Iris® Xe Graphics
+  - Intel® Iris® Xe Max Graphics
+  - Intel® Data Center GPU Flex Series
+  - Intel® Data Center GPU Max Series
+
+  </TabItem>
+  <TabItem value="os" label="Supported Operating Systems">
+
+  - Windows 11, 64-bit
+  - Windows 10, 64-bit
+  - Ubuntu 24.04 long-term support (LTS), 64-bit
+  - Ubuntu 22.04 long-term support (LTS), 64-bit
+  - Ubuntu 20.04 long-term support (LTS), 64-bit
+  - CentOS 7
+  - Red Hat Enterprise Linux (RHEL) 8 and 9, 64-bit
+
+  </TabItem>
+</Tabs>
+
 
 ## Where to start
 
